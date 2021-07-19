@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>  
+    <div class="header">
+        <h1>Application Form to Join Discord Server "ProgrammingWithFriends"</h2>
+            <p>Welcome to our server here you will get new things in almost all channels.
+                <br>
+                We have some dedicated channels such as "Daily-Updates" here we all post whatever we learn in a day.
+            </p>
+    </div>
+    <div class="container">
+        <form action="#">
+            <div class="row">
+                <div class="column">
+                    <label for="firstname">First Name</label>
+                </div>
+                <div class="input-column">
+                    <input type="text" id="fname" name="firstname" placeholder="Your first name...">
+                </div>
+            </div>
+            <div class="row">
+                <div class="column">
+                    <label for="lastname">Last Name</label>
+                </div>
+                <div class="input-column">
+                    <input type="text" id="lname" name="lastname" placeholder="Your last name...">
+                </div>
+            </div>
+            <div class="row">
+                <div class="column">
+                    <label for="gender">Gender</label>
+                </div>
+                <div class="input-column">
+                    <input type="radio" name="gender" value=1>Male
+                    <input type="radio" name="gender" value=1>Female
+                </div>
+            </div>
+            <div class="row">
+                <div class="column">
+                    <label for="mobile-number">Mobile Number</label>
+                </div>
+                <div class="input-column">
+                    <input type="text" id="mobile-number" name="mobile-number"
+                        placeholder="Enter your mobile number...">
+                </div>
+            </div>
+            <div class="row">
+                <div class="column">
+                    <label for="Email">E-Mail</label>
+                </div>
+                <div class="input-column">
+                    <input type="text" id="email" name="email" placeholder="Enter your Email ID...">
+                </div>
+            </div>
+            <div class="row">
+                <div class="column">
+                    <label for="reference ">Reference</label>
+                </div>
+                <div class="input-column">
+                    <input type="text" id="reference" name="reference" placeholder="Enter your reference (if any)...">
+                </div>
+            </div>
+            <div class="row">
+                <div class="column">
+                    <label for="country">Country</label>
+                </div>
+                <div class="input-column">
+                    <select id="country" name="country">
+                        <option value="australia">India</option>
+                        <option value="canada">Korea</option>
+                        <option value="usa">USA</option>
+                        <option value="usa">Dubai</option>
+                        <option value="usa">Italy</option>
+                        <option value="usa">Dubai</option>
+                        <option value="usa">Japan</option>
+                        <option value="usa">Australia</option>
+                        <option value="usa">Finland</option>
+                    </select>
+                </div>
+            </div>
+            <div class="row">
+                <div class="column">
+                    <label for="introduction">Introduce your-self</label>
+                </div>
+                <div class="input-column">
+                    <textarea id="introduction" name="introduction" placeholder="Write something about yourself..."
+                        style="height:100px"></textarea>
+                </div>
+                <div class="note">
+                    <p>*Note:-China users are not allowed in our server. you all know the reason not need to explain
+                        here.
+                    </p>
+                </div>
+            </div>
+            <div class="button">
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset">
+            </div>
+        </form>
+    </div>
