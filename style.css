@@ -339,7 +339,7 @@ input[type=text]:not(.browser-default):focus:not([readonly]){
 
 .content-body{
    display: flex;
-   justify-content: relative;
+   justify-content: center;
    align-items: center;
    min-height: 0vh;
    background: #ebf5fc;
