@@ -16,7 +16,11 @@
    #click:checked~.menu-btn i:before {
       content: "\f00d";
    }
+   .fas.fa-bars{
+      color:white;
+    
 
+   }
    nav ul {
       position: fixed;
       top: 80px;
